@@ -16,3 +16,4 @@ A commit is a snapshot of all the files at a specific point in development. A go
 
 * What is a merge conflict?
 A merge conflict occurs when two commits attempt to alter the same code when merging.
+
