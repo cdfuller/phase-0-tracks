@@ -12,3 +12,11 @@
 .list {
     font-size: .8em;
 }
+
+li:nth-child(2) {
+	color: blue;
+}
+
+#volunteer-experience li {
+	color: green;
+}
