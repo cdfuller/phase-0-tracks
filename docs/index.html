@@ -4,8 +4,10 @@
     <title>A space for space stuff</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<div id="container">
     <nav>
         <ul>
             <li><a href="./index.html">Home</a></li>
@@ -16,7 +18,7 @@
 <h2>What is space?</h2>
 <p>Space is the place where the that exists outside of our own little planet.</p>
 <h2>What's in space?</h2>
-<img src="images/earth-11008_640.jpg" alt="Earth">
+<img class="responsive-img" src="images/earth-11008_640.jpg" alt="Earth">
 <ul>
     <li>Earth</li>
     <li>The Moon</li>
@@ -38,7 +40,7 @@
 </form>
 
 <h2>Other Resources</h2>
-<a href="http://www.nasa.gov/"><img src="images/nasa.png" alt="NASA logo"></a>
+<a href="http://www.nasa.gov/"><img class="responsive-img" src="images/nasa.png" alt="NASA logo"></a>
 <p>Here's a group of people who seem to have a little bit of knowledge about space.</p>
 <p>Their <a href="http://www.nasa.gov/">website</a> is very well-designed visually, but they could improve their page load time.
 The page downloads about 10 megabytes and takes about 10 seconds to finish loading. They load almost all the content via Ajax 
@@ -46,5 +48,6 @@ after the base html has loaded.</p>
 <p>I'm aware of many of the HTML elements on page. Some of the included meta properties were new to me. Which after googling, I
     disovered they are used by the <a href="http://ogp.me/">Open Graph</a> protocol. It allows social media websites to easily
     describe the page that is being shared.</p>
+</div>
 </body>
 </html>

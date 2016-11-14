@@ -1,0 +1,55 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+div#container {
+    max-width: 960px;
+    width: 75%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: white;
+}
+
+.responsive-img {
+    max-width: 100%;
+}
+
+ul {
+    margin: 0;
+    padding: 10px;
+    list-style-type: none;
+}
+
+li {
+    padding: 5px;
+}
+
+@media screen and (max-width: 320px){
+    #container{
+        width:100%;
+    }
+}
+
+form {
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+
+form > label {
+    padding: 10px;
+    margin: 10px;
+}
+
+input {margin: 3px;}
+
+h1, h2 {
+    font-family: sans-serif;
+    color: #6b6b6b;
+}
+
+body {background-image: url("texture.png");}
+
+a:visited {
+    color: green;
+}
