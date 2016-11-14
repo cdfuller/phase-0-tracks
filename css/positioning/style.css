@@ -1,0 +1,30 @@
+#container {
+    margin:0 auto;
+    margin-top: 80px;
+    width:960px;
+}
+
+#container {
+    position: relative;
+}
+
+#octopus {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#glasses {
+    position: absolute;
+    z-index: 1;
+    top: 99px;
+    left: 42px;
+}
+
+
+#hat {
+    position: absolute;
+    z-index: 1;
+    top: -68px;
+    left: -20px;
+}
