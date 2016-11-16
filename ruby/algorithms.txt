@@ -1,0 +1,21 @@
+
+Release 0: Equipt Your New Robot
+
+Robots Riding Elevators
+
+-Enter random building
+-Use path-finding algorithm to search for elevator in building
+-If elevator is found
+    -Search the perimeter of elevator door for buttons.
+    -If buttons are found
+        -If robot wants to go up
+            -Press top button
+        -If robot wants to go down
+            -Press down button
+        -Enter elevator
+        -Press all numbered buttons in elevator
+        -For every floor visitied
+            -If floor is desired floor
+                -Exit
+-If elevator is not found
+    -Leave building and start over
