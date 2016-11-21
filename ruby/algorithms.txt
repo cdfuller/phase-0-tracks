@@ -1,0 +1,46 @@
+
+Release 0: Equipt Your New Robot
+
+Robots Riding Elevators
+
+-Enter random building
+-Use path-finding algorithm to search for elevator in building
+-If elevator is found
+    -Search the perimeter of elevator door for buttons.
+    -If buttons are found
+        -If robot wants to go up
+            -Press top button
+        -If robot wants to go down
+            -Press down button
+        -Enter elevator
+        -Press all numbered buttons in elevator
+        -For every floor visitied
+            -If floor is desired floor
+                -Exit
+-If elevator is not found
+    -Leave building and start over
+
+
+Release 1: Real-Life Algorithm
+
+Building a PB & J sandwich
+
+Inputs: Peanut Butter, Jelly, Sliced Bread
+Tools: Knife, Plate
+
+-Place plate on flat surface
+-Open bag of bread.
+-Remove two slices of bread from bag.
+-Lay slices flat on plate.
+-Name slices slice_J and slice_PB
+-Remove lid from jelly
+-Use knife to scoop 2 tablespoons of jelly onto slice_J
+-Close jelly
+-Lick knife clean of 
+-Remove lid from peanut butter
+-Use knife to scoop 2 tablespoons of peanut butter onto slice_PB
+-Close peanut butter
+-Lick knife clean of peanut butter
+-Lift slice_PB and flip it over.
+-Place slice_PB on slice_J aligning by all four edges.
+-Eat
