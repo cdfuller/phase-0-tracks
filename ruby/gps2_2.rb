@@ -65,3 +65,26 @@ remove_from_list(grocery_list, "Lemonade")
 update_item(grocery_list, "Ice Cream", 1)
 
 print_list(grocery_list)
+
+
+# Reflect
+# 
+# What did you learn about pseudocode from working on this challenge?
+#     I learned a new way to organize the inputs and outputs.
+# 
+# What are the tradeoffs of using arrays and hashes for this challenge?
+#     Hashes were a better solution in this project than arrays because it allowed us to
+#         store our data in one structure instead of having to split it into two arrays.
+# 
+# What does a method return?
+#     A value calculated in the method.
+# 
+# What kind of things can you pass into methods as arguments?
+#     Any object.
+# 
+# How can you pass information between methods?
+#     Pass info in as an argument.
+# 
+# What concepts were solidified in this challenge, and what concepts are still confusing?
+#     I have a better understand on how to work a data structure between methods without using classes.
+#         I'm still a bit confused about scope.
