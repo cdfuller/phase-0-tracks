@@ -24,7 +24,7 @@ class Santa
     end
 
     def get_mad_at(reindeer)
-        @reindeer_ranking << $r if $r = @reindeer_ranking.delete(reindeer)
+        @reindeer_ranking << reindeer if @reindeer_ranking.delete(reindeer)
     end
 end
 
