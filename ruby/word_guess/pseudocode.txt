@@ -1,0 +1,13 @@
+Game Class
+    Attributes:
+        Read:
+            guess_word
+            num_guesses_left
+            guessed_letters
+        Write:
+            secret_word
+        Read/Write:
+    
+    Methods:
+        guess
+        has_won
