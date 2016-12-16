@@ -1,0 +1,18 @@
+SELECT businesses.name, users.first_name, users.last_name, reviews.stars, reviews.comment FROM businesses JOIN reviews ON businesses.id = reviews.business_id JOIN users ON users.id = reviews.user_id;
+Sushi World|Angela|Jolie|2|so-so
+Grundy Hollow Wedding Chapel|Bradford|Pitt|100|Out of this world!
+JoeBob's Sportz Barn|Denzel|George|5|yay sports!
+Sushi World|Mandy|Kaling|5|yay yoga!
+
+(made pretty
+SELECT businesses.name, users.first_name, users.last_name, reviews.stars, reviews.comment FROM businesses JOIN reviews ON businesses.id = reviews.business_id JOIN users ON users.id = reviews.user_id;
+name         first_name  last_name   stars       comment   
+-----------  ----------  ----------  ----------  ----------
+Sushi World  Angela      Jolie       2           so-so     
+Grundy Holl  Bradford    Pitt        100         Out of thi
+JoeBob's Sp  Denzel      George      5           yay sports
+Sushi World  Mandy       Kaling      5           yay yoga! )
+
+SELECT businesses.name, users.first_name, users.last_name, reviews.stars, reviews.comment FROM businesses JOIN reviews ON businesses.id = reviews.business_id JOIN users ON users.id = reviews.user_id WHERE businesses.id = 6;
+Sushi World|Angela|Jolie|2|so-so
+Sushi World|Mandy|Kaling|5|yay yoga!
