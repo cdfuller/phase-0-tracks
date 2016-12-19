@@ -52,3 +52,38 @@ Delete an item that meets some condition (you can choose a condition that makes 
 
 
 sqlite> DELETE FROM cats WHERE name="Timmy";
+
+
+----------------------------
+----------------------------
+
+RELEASE 3
+
+----------------------------
+----------------------------
+
+
+
+sqlite> SELECT c.name AS "Cat's name", c.fur_color, cl.first_name, cl.last_name  FROM cats c JOIN cat_ladies cl ON c.owner_id = cl.id;
+Cat's name  fur_color   first_name  last_name
+----------  ----------  ----------  ----------
+Griswold    Grey        Gretchen    Harold
+Lemondrop   Flannel     Gretchen    Harold
+Greg        Yellow      Gretchen    Harold
+Oscar       Orange      Christine   Thompson
+Garfield    Orange      Christine   Thompson
+Oswald      White       Shauna      Gato
+Tex         Black       Lola        Bunny
+
+
+sqlite> SELECT c.name AS "Cat's name", c.fur_color, cl.first_name, cl.last_name  FROM cats c LEFT OUTER JOIN cat_ladies cl ON c.owner_id = cl.id;
+Cat's name  fur_color   first_name  last_name
+----------  ----------  ----------  ----------
+Griswold    Grey        Gretchen    Harold
+Lemondrop   Flannel     Gretchen    Harold
+Greg        Yellow      Gretchen    Harold
+Oscar       Orange      Christine   Thompson
+Garfield    Orange      Christine   Thompson
+Oswald      White       Shauna      Gato
+Tex         Black       Lola        Bunny
+sqlite>
